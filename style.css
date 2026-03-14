@@ -1,0 +1,18 @@
+body {
+    font-family: 'Public Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.hero-gradient {
+    background: radial-gradient(circle at 50% 50%, rgba(79, 70, 229, 0.1) 0%, transparent 70%);
+}
+
+.transition-all {
+    transition-duration: 300ms;
+}
