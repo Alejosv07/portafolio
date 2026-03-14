@@ -24,7 +24,7 @@ async function fetchRepos() {
         repoContainer.innerHTML = '';
 
         for (const repo of repos) {
-            if (!repo.fork) {
+            if (!repo.fork && repo.name.toLowerCase() !== 'portafolio') {
 
                 const card = createRepoCard(repo);
                 repoContainer.appendChild(card);
